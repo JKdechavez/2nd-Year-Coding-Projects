@@ -1,0 +1,62 @@
+class PriorityQueue:
+    def __init__(self, size):
+        self.heap = [None] * size
+        self.n = 0
+
+    def heapify(self, r):
+        left = 2 * r
+        right = 2 * r + 1
+
+        largest = r
+
+        if left <= self.n and (self.heap[left].condition_severity > self.heap[largest].condition_severity
+                               or (self.heap[left].condition_severity == self.heap[largest].condition_severity
+                                   and self.heap[left].arrival_time < self.heap[largest].arrival_time)):
+            largest = left
+
+        if right <= self.n and (self.heap[right].condition_severity > self.heap[largest].condition_severity
+                                or (self.heap[right].condition_severity == self.heap[largest].condition_severity
+                                    and self.heap[right].arrival_time < self.heap[largest].arrival_time)):
+            largest = right
+
+        if largest != r:
+            temp = self.heap[r]
+            self.heap[r] = self.heap[largest]
+            self.heap[largest] = temp
+            self.heapify(largest)
+
+    def build_heap(self):
+        for s in range(self.n // 2, 0, -1):
+            self.heapify(s)
+
+    def insert(self, value):
+        pnew = self.n + 1
+        self.heap[pnew] = value
+        while pnew > 1 and (self.heap[pnew // 2].condition_severity < value.condition_severity
+                            or (self.heap[pnew // 2].condition_severity == value.condition_severity
+                                and self.heap[pnew // 2].arrival_time < value.arrival_time)):
+            self.heap[pnew] = self.heap[pnew // 2]
+            pnew = pnew // 2
+        self.heap[pnew] = value
+        self.n = self.n + 1
+
+    def delete_max(self):
+        max = self.heap[1]
+        self.heap[1] = self.heap[self.n]
+        self.n = self.n - 1
+        self.heapify(1)
+        return max
+
+    def max(self):
+        return self.heap[1]
+#Patient Object
+class Patient:
+    def __init__(self, name, condition_severity, arrival_time):
+        self.name = name
+        self.condition_severity = condition_severity
+        self.arrival_time = arrival_time
+
+
+
+#Sorting the selected patients based on their arrival time
+sorted_patients_by_time = sorted(select_patients, key = lambda x: x.arrival_time)

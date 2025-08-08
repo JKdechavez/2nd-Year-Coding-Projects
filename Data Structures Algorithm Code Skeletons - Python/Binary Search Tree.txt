@@ -1,0 +1,203 @@
+class Node:
+    def __init__(self, key):
+        self.left = None
+        self.right = None
+        self.val = key
+
+class BST:
+    def __int__(self):
+        self.root = None
+
+    def insert(self, root, key):
+        if root is None:
+            return Node(key)
+        else:
+            if key < root.val:
+                root.left = self.insert(root.left, key)
+            else:
+                root.right = self.insert(root.right, key)
+        return root
+
+    def search(self, item):
+        ptr = self.root
+        while (ptr is not None and item != ptr.val):
+            if item < ptr.val:
+                ptr = ptr.left
+            else:
+                ptr = ptr.right
+        return ptr
+
+    def inorderTraversal(self, root):
+        if root is not None:
+            self.inorderTraversal(root.left)
+            print(root.val, end=" ")
+            self.inorderTraversal(root.right)
+
+    def find_min(self, root = None):
+        if root is None:
+            p = self.root
+        else:
+            p = root
+        while p.left is not None:
+            p = p.left
+        return p
+
+    def find_max(self, root = None):
+        if root is None:
+            p = self.root
+        else:
+            p = root
+        while p.right is not None:
+            p = p.right
+        return p
+
+    def height(self, root = None):
+        if root is None:
+            return -1
+        left_height = self.height(root.left)
+        right_height = self.height(root.right)
+        return 1 + max(left_height, right_height)
+
+    def delete(self, root, key):
+        if root is None:
+            return root
+        if key < root.val:
+            root.left = self.delete(root.left, key)
+        elif key > root.val:
+            root.right = self.delete(root.right, key)
+        else:
+            if root.left is None:
+                ptr = root.right
+                root = None
+                return ptr
+            elif root.right is None:
+                ptr = root.left
+                root = None
+                return ptr
+            ptr = self.find_min(root.right)
+            root.val = ptr.val
+            root.right = self.delete(root.right, ptr.val)
+        return root
+
+
+bst = BST()
+root = None
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+class Node:
+    def __init__(self, item = None):
+        self.leftchild = None
+        self.item = item
+        self.parentchild = None
+        self.rightchild = None
+
+    det __str__(self):
+        return "{}\n".format(self.item)
+
+class BinarySearchTree:
+    def __init__(self):
+        self.root = None
+
+    def search(self, item):
+        ptr = self.root
+        while (ptr is not None and item != ptr.item):
+            if item < ptr.item:
+                ptr = ptr.leftchild
+            else:
+                ptr = ptr.rightchild
+        return ptr
+
+    def insert(self, item):
+        x = self.root
+        y = None
+        z = Node(item)
+        while x is not None:
+            y = x
+            if z.item < x.item:
+                x = x.leftchild
+            else:
+                x = x.rightchild
+        z.parent = y
+
+        if y is None:
+            self.root = z
+        else:
+            if z.item < y.item:
+                y.leftchild = z
+            else:
+                y.rightchild = z
+
+    def minimum(self, root = None):
+        if root is None:
+            p = self.root
+        else:
+            p = root
+        while p.leftchild is not None:
+            p = p.leftchild
+        return p
+
+    def maximum(self, root = None):
+        if root is None:
+            p = self.root
+        else:
+            p = root
+        while p.rightchild is not None:
+            p = p.rightchild
+        return p
+
+    def successor(self, ptr)
+        succ = None
+        if ptr.rightchild is not None:
+            return self.minimum(ptr.rightchild)
+        succ = ptr.parent
+        while succ is not None and ptr == succ.rightchild:
+            ptr = succ
+            succ = succ.parent
+        return succ
+
+    def delete(self, z):
+        if z.leftchild is None or z.rightchild is None:
+            y = z
+        else:
+            y = self.successor(z)
+        if y.leftchild is not None:
+            x = y.leftchild
+        else:
+            x = y.rightchild
+        if x is not None:
+            x.parent = y.parent
+        if y.parent is None:
+            self.root = x
+        else:
+            if y == y.parent.leftchild:
+                y.parent.leftchild = x
+            else: 
+                y.parent.rightchild = x
+
+        if y != z:
+            z.item = y.item
+
+        return y
+
+    def preorderTraversal(self, root):
+        if root is not None:
+            print(root.item, end=" ")
+            self.inorderTraversal(root.leftchild)
+            self.inorderTraversal(root.rightchild)
+
+    def inorderTraversal(self, root):
+        if root is not None:
+            self.inorderTraversal(root.leftchild)
+            print(root.item, end=" ")
+            self.inorderTraversal(root.rightchild)
+
+    def postorderTraversal(self, root):
+        if root is not None:
+            self.inorderTraversal(root.leftchild)
+            self.inorderTraversal(root.rightchild)    
+            print(root.item, end=" ")
+
+		

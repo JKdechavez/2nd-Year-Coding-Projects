@@ -1,0 +1,120 @@
+class Item:
+    def __init__(self, key, value):
+        self.key = key
+        self.value = value
+
+
+class Node:
+    def __init__(self, item):
+        self.item = item
+        self.next = None
+
+
+class Dictionary:
+    def __init__(self):
+        self.head = self.tail = None
+
+    def __str__(self):
+        dictionary = "{"
+        ptr = self.head
+        while ptr is not None:
+            dictionary += f"({ptr.item.key},{ptr.item.value})"
+            if ptr.next is not None:
+                dictionary += ", "
+            ptr = ptr.next
+        dictionary += "}"
+        return dictionary
+
+    def is_empty(self):
+        return self.head == None
+
+    def insert_item(self, key, value):
+        item = Item(key, value)
+        node = Node(item)
+        if self.is_empty():
+            self.head = node
+            self.tail = node
+        else:
+            self.tail.next = node
+            self.tail = node
+
+    def remove_item(self, key):
+        prev = None
+        current = self.head
+        while current is not None:
+            if key == current.item.key:
+                break
+            else:
+                prev = current
+                current = current.next
+        if current is None:
+            print("Can't remove. Key not Found.")
+        else:
+            if prev is None:
+                self.head = current.next
+            else:
+                prev.next = current.next
+            value = current.item.value
+            del current
+        return value
+
+    def find_item(self, key):
+        current = self.head
+        while current is not None:
+            if key == current.item.key:
+                break
+            else:
+                current = current.next
+        if current is None:
+            return -1
+        else:
+            return current.item
+
+    def find_all_items(self, key):
+        values = []
+        current = self.head
+        while current is not None:
+            if key == current.item.key:
+                values.append(current.item.value)
+            current = current.next
+        return values
+
+    def dict_of_contacts(self):
+        dict = {}
+        current = self.head
+        while current:
+            dict[current.item.key] = current.item.value
+            current = current.next
+        return dict
+
+    def update_item(self, key, new_number):
+        item = self.find_item(key)
+        item.value = new_number
+
+    def remove_all_items(self, key):
+        values = []
+        prev = None
+        current = self.head
+        while current is not None:
+            if key == current.item.key:
+                values.append(current.item.value)
+                if prev is None:
+                    self.head = current.next
+                else:
+                    prev.next = current.next
+                    value = current.item.value
+                ptr = current
+                current = current.next
+                del ptr
+            else:
+                prev = current
+                current = current.next
+        return values
+
+    def size(self):
+        count = 0
+        current = self.head
+        while current is not None:
+            count += 1
+            current = current.next
+        return count
