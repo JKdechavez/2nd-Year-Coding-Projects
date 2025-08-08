@@ -1,0 +1,33 @@
+C:\Users\CL 4 - PC 16\source\repos\Lab15\bin\Debug\net6.0-windows\Lab15.exe
+C:\Users\CL 4 - PC 16\source\repos\Lab15\bin\Debug\net6.0-windows\Lab15.deps.json
+C:\Users\CL 4 - PC 16\source\repos\Lab15\bin\Debug\net6.0-windows\Lab15.runtimeconfig.json
+C:\Users\CL 4 - PC 16\source\repos\Lab15\bin\Debug\net6.0-windows\Lab15.dll
+C:\Users\CL 4 - PC 16\source\repos\Lab15\bin\Debug\net6.0-windows\Lab15.pdb
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.csproj.AssemblyReference.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.Form1.resources
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.csproj.GenerateResource.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.AssemblyInfoInputs.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.AssemblyInfo.cs
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.csproj.CoreCompileInputs.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.dll
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\refint\Lab15.dll
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.pdb
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\Lab15.genruntimeconfig.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab15\obj\Debug\net6.0-windows\ref\Lab15.dll
+C:\Users\user\Downloads\Lab15\bin\Debug\net6.0-windows\Lab15.exe
+C:\Users\user\Downloads\Lab15\bin\Debug\net6.0-windows\Lab15.deps.json
+C:\Users\user\Downloads\Lab15\bin\Debug\net6.0-windows\Lab15.runtimeconfig.json
+C:\Users\user\Downloads\Lab15\bin\Debug\net6.0-windows\Lab15.dll
+C:\Users\user\Downloads\Lab15\bin\Debug\net6.0-windows\Lab15.pdb
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\Lab15.Form1.resources
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\Lab15.csproj.GenerateResource.cache
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\Lab15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\Lab15.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\Lab15.AssemblyInfo.cs
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\Lab15.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\Lab15.dll
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\refint\Lab15.dll
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\Lab15.pdb
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\Lab15.genruntimeconfig.cache
+C:\Users\user\Downloads\Lab15\obj\Debug\net6.0-windows\ref\Lab15.dll

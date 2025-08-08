@@ -1,0 +1,17 @@
+C:\Users\CL 4 - PC 16\source\repos\Lab22\bin\Debug\net6.0-windows\Lab22.exe
+C:\Users\CL 4 - PC 16\source\repos\Lab22\bin\Debug\net6.0-windows\Lab22.deps.json
+C:\Users\CL 4 - PC 16\source\repos\Lab22\bin\Debug\net6.0-windows\Lab22.runtimeconfig.json
+C:\Users\CL 4 - PC 16\source\repos\Lab22\bin\Debug\net6.0-windows\Lab22.dll
+C:\Users\CL 4 - PC 16\source\repos\Lab22\bin\Debug\net6.0-windows\Lab22.pdb
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.csproj.AssemblyReference.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.Form1.resources
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.csproj.GenerateResource.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.AssemblyInfoInputs.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.AssemblyInfo.cs
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.csproj.CoreCompileInputs.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.dll
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\refint\Lab22.dll
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.pdb
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\Lab22.genruntimeconfig.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab22\obj\Debug\net6.0-windows\ref\Lab22.dll

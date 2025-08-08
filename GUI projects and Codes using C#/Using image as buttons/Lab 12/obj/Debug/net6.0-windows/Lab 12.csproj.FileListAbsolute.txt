@@ -1,0 +1,17 @@
+C:\II - CS1 CS 207\Lab 12\Lab 12\bin\Debug\net6.0-windows\Lab 12.exe
+C:\II - CS1 CS 207\Lab 12\Lab 12\bin\Debug\net6.0-windows\Lab 12.deps.json
+C:\II - CS1 CS 207\Lab 12\Lab 12\bin\Debug\net6.0-windows\Lab 12.runtimeconfig.json
+C:\II - CS1 CS 207\Lab 12\Lab 12\bin\Debug\net6.0-windows\Lab 12.dll
+C:\II - CS1 CS 207\Lab 12\Lab 12\bin\Debug\net6.0-windows\Lab 12.pdb
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab_12.Form1.resources
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab_12.Properties.Resources.resources
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab 12.csproj.GenerateResource.cache
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab 12.GeneratedMSBuildEditorConfig.editorconfig
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab 12.AssemblyInfoInputs.cache
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab 12.AssemblyInfo.cs
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab 12.csproj.CoreCompileInputs.cache
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab 12.dll
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\refint\Lab 12.dll
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab 12.pdb
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\Lab 12.genruntimeconfig.cache
+C:\II - CS1 CS 207\Lab 12\Lab 12\obj\Debug\net6.0-windows\ref\Lab 12.dll

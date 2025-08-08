@@ -1,0 +1,13 @@
+Step 1:
+In server tab, Import "online_shopping_database" to MySqlWorkbench.
+Step 2:
+Open Solution in Visual Studio
+Step 3:
+Make sure that MySqlWorkbench is running.
+Step 4:
+Run the application in Visual Studio.
+
+Notes:
+1. Only one admin account was created in database. There are no options for adding admin account because users are only eligible as customers. To add admin account, kindly add a new account into MySql table named "users". See password and account details in "users".
+2. All product photos are contained in Project Solutions' bin folder so that it can be easily called by the program using their filename only.
+3. Change all of the passwords of the database in the solutions' code. Don't forget database class file. Almost every form contains the string connection, make sure to change eveything.

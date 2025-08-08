@@ -1,0 +1,17 @@
+C:\Users\CL 4 - PC 16\source\repos\Lab21\bin\Debug\net6.0-windows\Lab21.exe
+C:\Users\CL 4 - PC 16\source\repos\Lab21\bin\Debug\net6.0-windows\Lab21.deps.json
+C:\Users\CL 4 - PC 16\source\repos\Lab21\bin\Debug\net6.0-windows\Lab21.runtimeconfig.json
+C:\Users\CL 4 - PC 16\source\repos\Lab21\bin\Debug\net6.0-windows\Lab21.dll
+C:\Users\CL 4 - PC 16\source\repos\Lab21\bin\Debug\net6.0-windows\Lab21.pdb
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.csproj.AssemblyReference.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.Form1.resources
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.csproj.GenerateResource.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.AssemblyInfoInputs.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.AssemblyInfo.cs
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.csproj.CoreCompileInputs.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.dll
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\refint\Lab21.dll
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.pdb
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\Lab21.genruntimeconfig.cache
+C:\Users\CL 4 - PC 16\source\repos\Lab21\obj\Debug\net6.0-windows\ref\Lab21.dll
